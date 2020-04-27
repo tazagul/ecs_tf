@@ -60,3 +60,4 @@ resource "aws_ecs_service" "myapp-service" {
     ignore_changes = [task_definition]
   }
 }
+
